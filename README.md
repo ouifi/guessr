@@ -2,6 +2,7 @@
 - [Getting Started](#getting-started)
 - [Technologies Used](#technologies-used)
 - [Feature/Contribution Ideas](#featurecontribution-ideas)
+- [Support the Project!](#support-the-project)
 
 <p align="center">
     <img id="image" src="./logo.png" width="20%">
@@ -34,3 +35,7 @@ These are some ideas for features to add that I considered unneccessary for gett
 - Actual leaderboards. IDK. This would require some kind of data store to back the server. Im not super interested in this idea, but someone can fork the repo if they want to add it. 
 - User OAuth permissions. Currently this app uses a couple of reddit bot accounts I created, and it will rotate/load balance between the two bot accounts to stay within Reddit usage rates. Having the option for a user to sign in via OAuth on their own account would mean they could play to their hearts' content. This may be a good idea for someone more experienced in OAuth flows to implement. 
 - New Game Modes. I have ideas for 2 game modes, challenge and time trial. In challenge mode, you start with only having one post presented, then you continue to get more until you are able to get the sub reddit or give up. In time trial, you have 2 minutes to play as fast as you want, with no rules, trying to get as many subreddits as possible until the timer hits 0. 
+- Better image loading. Currently, the images just load the full size from reddit. This would be bad for users with limited connections, and for subreddits with lots of high quality images, the page loads very slowly.
+
+# Support the Project!
+<a href="https://www.buymeacoffee.com/gbraad" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
