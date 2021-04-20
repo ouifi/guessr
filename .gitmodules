@@ -1,0 +1,6 @@
+[submodule "guessr-client"]
+	path = guessr-client
+	url = git@github.com:ouifi/guessr-client.git
+[submodule "guessr-server"]
+	path = guessr-server
+	url = git@github.com:ouifi/guessr-server.git
